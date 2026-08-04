@@ -1,0 +1,25 @@
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.1
+pydantic>=2.7.4
+pydantic-settings>=2.3.3
+motor==3.4.0                    # Async MongoDB driver
+pymongo==4.7.3
+beanie==1.26.0                  # MongoDB ODM (async, Pydantic-based)
+redis[asyncio]>=5.0.7
+python-jose[cryptography]>=3.3.0  # JWT
+passlib[bcrypt]>=1.7.4          # Password hashing
+python-multipart>=0.0.9         # File upload support
+httpx>=0.27.0                   # Async HTTP client
+google-generativeai>=0.7.2      # Gemini Flash (LLM + Vision)
+openai>=1.35.7                  # Whisper STT + TTS
+langchain>=0.2.9                # RAG pipeline
+langchain-google-genai>=1.0.7   # LangChain × Gemini
+langchain-community>=0.2.9      # Document loaders, FAISS
+sentence-transformers>=3.0.1    # Embeddings
+faiss-cpu>=1.8.0                # Vector similarity search
+Pillow>=10.4.0                  # Image preprocessing
+python-dotenv>=1.0.1
+structlog>=24.2.0               # Structured logging
+slowapi>=0.1.9                  # Rate limiting for FastAPI
+email-validator>=2.2.0
+aiofiles>=23.2.1
